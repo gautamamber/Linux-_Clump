@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gautamamber.linuxclump">
+
+
+    <application>
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Linux_Clump">
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".about"
+            android:label="Basic Commands"/>
+        <activity android:name=".File_handling"
+            android:label="File Handling"/>
+        <activity android:name=".Help"
+            android:label="Help"/>
+        <activity android:name=".File_permission"
+            android:label="File Permission"/>
+        <activity android:name=".System_commands"
+            android:label="System"/>
+        <activity android:name=".Web_commands"
+            android:label="Web"/>
+        <activity android:name=".Device"
+            android:label="Device"/>
+        <activity android:name=".Installing"
+            android:label="Installing"/>
+        <activity android:name=".File_editor"
+            android:label="File Editors"/>
+        <activity android:name=".Editor_commands"
+            android:label="Editor Commands"/>
+        <activity android:name=".Terminology"
+            android:label="Terminology"></activity>
+    </application>
+
+</manifest>

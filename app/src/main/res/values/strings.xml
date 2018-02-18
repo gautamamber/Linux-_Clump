@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Linux Clump3</string>
+    <string name="about_linux">About Linux</string>
+    <string name="term">Terminology</string>
+    <string name="basic">Basic Commands</string>
+    <string name="file">File Handling</string>
+    <string name="system">System</string>
+    <string name="web">Web</string>
+    <string name="file_per">File Permission</string>
+    <string name="file_editor">File Editor</string>
+    <string name="editor">Editor</string>
+    <string name="device">Device</string>
+    <string name="installing">Installing</string>
+    <string name="help">Help</string>
+    <string name="about_app">About Application</string>
+
+</resources>

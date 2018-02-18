@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gautamamber.linuxclump.Linux_Clump">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-52dp">
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/sky"
+            android:paddingBottom="16dp"
+            android:paddingLeft="30dp"
+
+            android:paddingRight="30dp"
+            android:paddingTop="16dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:text="LINUX"
+                android:textColor="@color/colorPrimary"
+                android:textSize="60sp" />
+
+            <View
+                android:id="@+id/v1"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+
+                android:layout_below="@id/logo"
+                android:layout_marginTop="10dp"
+                android:background="@color/purple" />
+
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/v1"
+
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                android:text="@string/about_linux"
+                android:textAllCaps="false"
+                android:textColor="@color/purple"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/b1"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                android:text="@string/term"
+                android:textAllCaps="false"
+                android:textColor="@color/purple"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/b2"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                android:text="@string/basic"
+                android:textAllCaps="false"
+                android:textColor="@color/purple"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/b3"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                android:text="@string/file"
+                android:textAllCaps="false"
+                android:textColor="@color/purple"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/b4"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                android:text="@string/system"
+                android:textAllCaps="false"
+                android:textColor="@color/purple"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/b5"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                android:text="@string/web"
+                android:textAllCaps="false"
+                android:textColor="@color/purple"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/b6"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                android:text="@string/file_per"
+                android:textAllCaps="false"
+                android:textColor="@color/purple"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/b7"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                android:text="@string/file_editor"
+                android:textAllCaps="false"
+                android:textColor="@color/purple"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/b8"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                android:text="@string/editor"
+                android:textAllCaps="false"
+                android:textColor="@color/purple"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/b9"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                android:text="@string/device"
+                android:textAllCaps="false"
+                android:textColor="@color/purple"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/b10"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                android:text="@string/installing"
+                android:textAllCaps="false"
+                android:textColor="@color/purple"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/b11"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                android:text="@string/help"
+                android:textAllCaps="false"
+                android:textColor="@color/purple"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/b13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/b12"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"
+                android:text="@string/about_app"
+                android:textAllCaps="false"
+                android:textColor="@color/purple"
+                android:textSize="22sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
